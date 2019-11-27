@@ -19,7 +19,7 @@
                 <li><a href="google-host-standard-preconnect">Standard Installation with preconnect</a></li>
                 <li><a href="google-host-subset-preconnect">Standard Installation with specific subset and preconnect</a></li>
                 <li><a href="google-host-webfont-loader">Webfont Loader</a></li>
-                <li><a href="google-host-webfont-loader">Webfont Loader with specific subset</a></li>
+                <li><a href="google-host-webfont-loader-subset">Webfont Loader with specific subset</a></li>
             </ul>
         </div>
         <div class="sm:w-1/2">
