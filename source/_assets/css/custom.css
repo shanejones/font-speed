@@ -1,0 +1,7 @@
+p a {
+    @apply font-bold;
+}
+
+p a:hover {
+    @apply text-blue-500;
+}
