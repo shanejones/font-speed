@@ -1,7 +1,12 @@
-p a {
+a {
     @apply font-bold;
 }
 
-p a:hover {
+a:hover {
     @apply text-blue-500;
+    @apply underline
+}
+
+li {
+    @apply mb-2
 }
