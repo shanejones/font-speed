@@ -2,17 +2,19 @@
 
 @section('head')
 <title>Font Speed Experiment - Shane Jones - Under2</title>
+<link rel="prerender" href="https://font-speed.netlify.com/google-host-webfont-loader-subset/">
+
 @endsection
 
 @section('content')
 
-<main class="main p-4">
-    <h1 class="font-light text-3xl text-black">Font Speed Experiment</h1>
-    <p class="text-gray-600 my-4 pb-4 border-b-2">An experiment by <a href="https://twitter.com/shanejones">Shane Jones</a> from <a href="http://under2.agency/">Under2</a></p>
+<main class="p-4 main">
+    <h1 class="text-3xl font-light text-black">Font Speed Experiment</h1>
+    <p class="pb-4 my-4 text-gray-600 border-b-2">An experiment by <a href="https://twitter.com/shanejones">Shane Jones</a> from <a href="http://under2.agency/">Under2</a></p>
 
     <div class="sm:flex">
         <div class="sm:w-1/2">
-            <h2 class="font-light text-3xl text-black">Google Hosted</h2>
+            <h2 class="text-3xl font-light text-black">Google Hosted</h2>
             <ul>
                 <li><a href="google-host-standard/">Standard Installation</a></li>
                 <li><a href="google-host-subset/">Standard Installation with specific subset</a></li>
@@ -23,7 +25,7 @@
             </ul>
         </div>
         <div class="sm:w-1/2">
-            <h2 class="font-light text-3xl text-black">Self Hosted</h2>
+            <h2 class="text-3xl font-light text-black">Self Hosted</h2>
         </div>
     </div>
 </main>
